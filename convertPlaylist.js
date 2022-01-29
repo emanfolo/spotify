@@ -27,9 +27,9 @@ const convertPlaylist = (rootDirectory) => {
 
 }
 
-export default convertPlaylist
+module.exports = convertPlaylist
 
-convertPlaylist('../playlists/replay-2020.csv')
+
 
 
 
