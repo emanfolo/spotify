@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "dotenv": "^14.3.2",
     "spotify-web-api-node": "^5.0.2"
   }
