@@ -3,8 +3,8 @@ const SpotifyWebApi = require('spotify-web-api-node')
 require('dotenv').config()
 
 
-// console.log(process.env.CLIENT_ID)
-// console.log(process.env.CLIENT_SECRET)
+console.log(process.env.CLIENT_ID)
+console.log(process.env.CLIENT_SECRET)
 
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
